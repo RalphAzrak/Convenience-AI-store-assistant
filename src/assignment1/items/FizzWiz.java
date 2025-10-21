@@ -10,7 +10,6 @@ public class FizzWiz extends Drink {
 
     public boolean equals(Object object){
         if(object instanceof FizzWiz fizzWiz) {
-            //TODO: check
             return super.equals(object) && this.numOfBottles == fizzWiz.numOfBottles;
         }else{
             return false;
